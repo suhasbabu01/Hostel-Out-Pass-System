@@ -53,6 +53,7 @@ INSERT INTO `login` (`sno`, `username`, `password`, `logintype`) VALUES
 CREATE TABLE `perpermissions_details` (
   `sno` int(11) NOT NULL,
   `rollnumber` varchar(225) NOT NULL,
+  `studentname` varchar(225) NOT NULL,
   `prmissiontype` varchar(225) NOT NULL,
   `leavingdatetime` varchar(225) NOT NULL,
   `returndatetime` varchar(225) NOT NULL,
@@ -70,10 +71,10 @@ CREATE TABLE `perpermissions_details` (
 --
 
 INSERT INTO `perpermissions_details` (`sno`, `rollnumber`, `prmissiontype`, `leavingdatetime`, `returndatetime`, `place`, `reason`, `contacnumber`, `status`, `outtime`, `intime`, `datm`) VALUES
-(1, '18A51A0515', 'onehourpermission', '2020-03-19T13:00', '2020-03-20T01:00', 'vzm', 'Movie Time', '2147483647', 'not responded', '', '', '2020-03-05 15:17:11'),
-(2, '18A51A0515', 'homepermission', '2020-03-20T12:00', '2020-12-01T12:59', 'Srikakulam', 'Movie Time', '2147483647', 'ACCEPTED', '', '', '2020-03-05 14:26:56'),
-(8, '18A51A0515', 'onehourpermission', '2020-03-28T00:59', '2020-03-28T13:59', 'Srikakulam', 'Movie Time', '9491694195', 'not responded', '', '', '2020-03-05 17:07:21'),
-(9, '18A51A0515', 'onehourpermission', '2020-03-21T00:59', '2020-12-31T12:59', 'vzm', 'Rajee lazy', '9491694195', 'ACCEPTED', '', '', '2020-03-05 17:07:13');
+(1, '18A51A0515', 'GOTETI JAYACHANDRA MOHAN LAKSHMI NARASIMHA MURTHY', 'onehourpermission', '2020-03-19T13:00', '2020-03-20T01:00', 'vzm', 'Movie Time', '2147483647', 'not responded', '', '', '2020-03-05 15:17:11'),
+(2, '18A51A0515', 'GOTETI JAYACHANDRA MOHAN LAKSHMI NARASIMHA MURTHY', 'homepermission', '2020-03-20T12:00', '2020-12-01T12:59', 'Srikakulam', 'Movie Time', '2147483647', 'ACCEPTED', '', '', '2020-03-05 14:26:56'),
+(8, '18A51A0515', 'GOTETI JAYACHANDRA MOHAN LAKSHMI NARASIMHA MURTHY', 'onehourpermission', '2020-03-28T00:59', '2020-03-28T13:59', 'Srikakulam', 'Movie Time', '9491694195', 'not responded', '', '', '2020-03-05 17:07:21'),
+(9, '18A51A0515', 'GOTETI JAYACHANDRA MOHAN LAKSHMI NARASIMHA MURTHY', 'onehourpermission', '2020-03-21T00:59', '2020-12-31T12:59', 'vzm', 'Rajee lazy', '9491694195', 'ACCEPTED', '', '', '2020-03-05 17:07:13');
 
 -- --------------------------------------------------------
 
